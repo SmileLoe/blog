@@ -21,14 +21,14 @@ class LoginController extends Controller
     use AuthenticatesUsers;
 
     /**
-     * Where to redirect users after login.
+     * 登录后重定向用户的位置。
      *
      * @var string
      */
     protected $redirectTo = '/home';
 
     /**
-     * Create a new controller instance.
+     * 创建一个新的控制器实例
      *
      * @return void
      */
