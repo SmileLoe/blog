@@ -19,6 +19,9 @@ return [
     'Confirm Password' => '重复密码',
     'Remember Me' => '记住登录',
     'Forgot Your Password?' => '忘记密码了？',
+    'Reset Password' => '重置密码',
+    'Send Password Reset Link' => '发送密码重置链接',
+
 
     'failed' => '您输入的登录信息与我们服务器的凭据不符。',
     'throttle' => '登录次数太多，请在 :seconds 秒后再尝试登录。',

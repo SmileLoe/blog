@@ -9,12 +9,12 @@ class VerificationController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
-    | Email Verification Controller
+    | 电子邮件验证控制器
     |--------------------------------------------------------------------------
     |
-    | This controller is responsible for handling email verification for any
-    | user that recently registered with the application. Emails may also
-    | be re-sent if the user didn't receive the original email message.
+    | 此控制器负责处理任何电子邮件验证。
+    | 最近向应用程序注册的用户。
+    | 如果用户没有收到原始电子邮件，电子邮件也可能被重新发送。
     |
     */
 
@@ -22,13 +22,14 @@ class VerificationController extends Controller
 
     /**
      * Where to redirect users after verification.
+     * 在验证后重定向用户的位置
      *
      * @var string
      */
     protected $redirectTo = '/home';
 
     /**
-     * Create a new controller instance.
+     * 创建一个新的控制器实例
      *
      * @return void
      */
