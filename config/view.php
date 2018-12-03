@@ -7,9 +7,8 @@ return [
     | View Storage Paths
     |--------------------------------------------------------------------------
     |
-    | Most templating systems load templates from disk. Here you may specify
-    | an array of paths that should be checked for your views. Of course
-    | the usual Laravel view path has already been registered for you.
+    | 大多数模板系统从磁盘加载模板。在这里，您可以指定要检查视图的一组路径。
+    | 当然，通常的laravel view 路径已经为您注册了。
     |
     */
 

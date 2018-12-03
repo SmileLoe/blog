@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => env('TIMEZONE','UTC'),
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' =>  env('LOCALE','en'),
 
     /*
     |--------------------------------------------------------------------------
@@ -100,9 +100,8 @@ return [
     | Faker Locale
     |--------------------------------------------------------------------------
     |
-    | This locale will be used by the Faker PHP library when generating fake
-    | data for your database seeds. For example, this will be used to get
-    | localized telephone numbers, street address information and more.
+    | 在为数据库种子生成伪数据时，Faker PHP库将使用此区域设置。
+    | 例如，这将用于获取本地电话号码、街道地址信息等。
     |
     */
 
@@ -128,16 +127,15 @@ return [
     | Autoloaded Service Providers
     |--------------------------------------------------------------------------
     |
-    | The service providers listed here will be automatically loaded on the
-    | request to your application. Feel free to add your own services to
-    | this array to grant expanded functionality to your applications.
+    | 这里列出的服务提供商将自动加载到您的应用程序的请求上。
+    | 您可以随意向这个数组添加自己的服务，以向应用程序授予扩展的功能。
     |
     */
 
     'providers' => [
 
         /*
-         * Laravel Framework Service Providers...
+         * LARAVER框架服务提供商…
          */
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
@@ -182,9 +180,9 @@ return [
     | Class Aliases
     |--------------------------------------------------------------------------
     |
-    | This array of class aliases will be registered when this application
-    | is started. However, feel free to register as many as you wish as
-    | the aliases are "lazy" loaded so they don't hinder performance.
+    | 此类别名数组将在应用程序启动时注册。
+    | 但是，请随意登记您希望的数量。
+    | 别名是“懒惰”加载的，因此它们不会妨碍性能。
     |
     */
 
