@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'inziu-SC-regular';
+    src: url('../fonts/inziu-SC-regular.eot');
+    src:
+        url('../fonts/inziu-SC-regular.eot?#font-spider') format('embedded-opentype'),
+        url('../fonts/inziu-SC-regular.woff') format('woff'),
+        url('../fonts/inziu-SC-regular.ttf') format('truetype'),
+        url('../fonts/inziu-SC-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

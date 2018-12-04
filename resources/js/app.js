@@ -1,8 +1,7 @@
 
 /**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
+ * 首先，我们将加载该项目的所有JavaScript依赖项，包括Vue和其他库。
+ * 使用VUE和Laravel构建健壮、强大的Web应用程序是一个很好的起点。
  */
 
 require('./bootstrap');
@@ -10,9 +9,9 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 /**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
+ * 下面的代码块可以用来自动注册您的VUE组件。
+ * 它将递归地扫描这个目录以寻找Vue组件，
+ * 并自动将它们注册为“basename”。
  *
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
@@ -23,9 +22,8 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key)))
 
 /**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
+ * 接下来，我们将创建一个新的VUE应用实例并将其附加到页面。
+ * 然后，您可以开始向该应用程序添加组件，或者定制JavaScript框架以满足您的独特需求。
  */
 
 const app = new Vue({

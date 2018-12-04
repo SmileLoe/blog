@@ -2,9 +2,9 @@
 window._ = require('lodash');
 
 /**
- * We'll load jQuery and the Bootstrap jQuery plugin which provides support
- * for JavaScript based Bootstrap features such as modals and tabs. This
- * code may be modified to fit the specific needs of your application.
+ * 我们将加载jQuery和Bootstrap jQuery插件，
+ * 该插件提供对基于JavaScript的引导特性（如模态和选项卡）的支持。
+ * 可以修改此代码以满足应用程序的特定需求。
  */
 
 try {
@@ -15,9 +15,8 @@ try {
 } catch (e) {}
 
 /**
- * We'll load the axios HTTP library which allows us to easily issue requests
- * to our Laravel back-end. This library automatically handles sending the
- * CSRF token as a header based on the value of the "XSRF" token cookie.
+ * 我们将加载axios HTTP库，它允许我们轻松地向Laravel后端发出请求。
+ * 该库基于“XSRF”令牌cookie的值自动处理将CSRF令牌作为报头发送。
  */
 
 window.axios = require('axios');
@@ -25,9 +24,9 @@ window.axios = require('axios');
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /**
- * Next we will register the CSRF Token as a common header with Axios so that
- * all outgoing HTTP requests automatically have it attached. This is just
- * a simple convenience so we don't have to attach every token manually.
+ * 接下来，我们将用Axios将CSRF令牌注册为一个公共头，
+ * 以便所有传出的HTTP请求自动附加它。
+ * 这只是一个简单的方便，所以我们不必手动连接每个令牌。
  */
 
 let token = document.head.querySelector('meta[name="csrf-token"]');
@@ -39,9 +38,8 @@ if (token) {
 }
 
 /**
- * Echo exposes an expressive API for subscribing to channels and listening
- * for events that are broadcast by Laravel. Echo and event broadcasting
- * allows your team to easily build robust real-time web applications.
+ * Echo公开了用于订阅频道和侦听Laravel广播的事件的表达性API。
+ * 回声和事件广播使您的团队能够轻松构建健壮的实时Web应用程序。
  */
 
 // import Echo from 'laravel-echo'
