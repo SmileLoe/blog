@@ -21,6 +21,7 @@ return [
     'Forgot Your Password?' => '忘记密码了？',
     'Reset Password' => '重置密码',
     'Send Password Reset Link' => '发送密码重置链接',
+    'Verify Your Email Address' => '验证你的电子邮件地址',
 
 
     'failed' => '您输入的登录信息与我们服务器的凭据不符。',
