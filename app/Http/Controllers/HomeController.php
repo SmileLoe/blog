@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     /**
-     * Create a new controller instance.
+     * 创建一个新的控制器实例
      *
      * @return void
      */
@@ -17,7 +17,7 @@ class HomeController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * 展示应用的控制面板.
      *
      * @return \Illuminate\Http\Response
      */

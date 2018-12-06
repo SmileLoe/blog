@@ -11,7 +11,9 @@ return [
     | 您可以根据应用程序的要求修改这些语言行。
     |
     */
+    'Home'=>'首页',
     'Login' => '登录',
+    'Logout' => '退出',
     'Register' => '注册',
     'Name' => '名字',
     'E-Mail Address' => '邮件地址',
